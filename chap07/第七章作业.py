@@ -27,3 +27,7 @@ with open(file=path_date, mode='w', encoding='utf-8') as z:
                  str(data_tips1), str(data_tips2)]
             x_str = '^'.join(x)
             z.write(x_str + '\n')
+
+
+with open(file=path_date, mode='w', encoding='utf-8') as u:
+    i = re.compile('<span(.+?)</span>')
