@@ -4,7 +4,7 @@ path = r"C:\Users\Hasee\Documents\mypython课件\chap07\07章.Python " \
        r"正则表达式与异常处理（含第5次作业参考代码+第6次作业要求）\实训报告06\案例@03-【实验7.1】电商商品关键数据提取 rawdata.txt"
 path_date = r"C:\Users\Hasee\Documents\mypython课件\chap07\07章.Python " \
             r"正则表达式与异常处理（含第5次作业参考代码+第6次作业要求）\实训报告06\整合的数据.txt"
-with open(file=path_date, mode='a', encoding='utf-8') as z:
+with open(file=path_date, mode='w', encoding='utf-8') as z:
     with open(file=path, mode='r', encoding='utf-8') as f:
         fr = f.readlines()
         for i in fr:
